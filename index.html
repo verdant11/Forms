@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script>
+  $(function() {
+    //$( "#datepicker" ).datepicker();
+  });
+  </script>
+ <!-- jQuery CDN link....  
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	 -->
+		<meta charset="UTF-8">	
+		<title>The Ski Oracle</title>  
+		<!-- link to an external style sheet (best practice with style sheet)-->
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body class="page"><!-- everything that is visual goes in the body tag  -->
+		<header>
+			<!-- the "banner" area or title of the page-->
+			<h1>The Ski Oracle</h1> <!-- only h1 per page (for SEO purposes) --> 	
+		</header>
+		<nav class="nav1"> 
+			<ul>
+				<!-- these links are relative paths -->
+				<li> <a href="#">home</a></li>
+				<li> <a href="#">gallery</a></li>
+				<li> <a href="#">who we are</a></li>
+				
+		    </ul>
+		</nav>
+		<body>
+    <div id="mainContent">
+        <h3>Welcome to site that suggests the best brand of Skis to Buy for
+        You!</h3>
+        <!-- About you    -->
+
+
+        <h2>Tell us all about you</h2>
+
+
+        <ul>
+            <li><label>What level of skiier are you?</label> <select name=
+            "expertise">
+                <option value="New&quot;">
+                    Slope virgin
+                </option>
+
+                <option value="Beginner&quot;">
+                    Newbie with skills
+                </option>
+
+                <option value="Intermediate&quot;">
+                    Blue trails, mostly
+                </option>
+
+                <option value="Pro&quot;">
+                    Mad mountain skills
+                </option>
+            </select></li>
+
+
+            <li style="list-style: none">
+                <br>
+
+
+                <form method="post">
+                    <fieldset>
+                        <legend>What brands have you been eyeing:</legend>
+                        <input name="skis" type="checkbox" value=
+                        "Rossignol">Rossignol<br>
+                        <input name="skis" type="checkbox" value=
+                        "Fischer">Fischer<br>
+                        <input name="skis" type="checkbox" value=
+                        "Volkl">Volkl<br>
+                        <input name="skis" type="checkbox" value=
+                        "Armada">Armada<br>
+                        <input name="skis" type="checkbox" value="Dunno">I Need
+                        Help!<br>
+                    </fieldset>
+
+
+                    <ul>
+                        <li><label>How much do you want to spend?</label>
+                        <select name="price">
+                            <option value="CostLow&quot;">
+                                Less than $300
+                            </option>
+
+                            <option value="CostMore&quot;">
+                                $300 to $400
+                            </option>
+
+                            <option value="CostPlus&quot;">
+                                $400 and up
+                            </option>
+
+                            <option value="NoObject&quot;">
+                                Price? No object
+                            </option>
+                        </select></li>
+                    </ul>
+                </form>
+            </li>
+
+
+            <li style="list-style: none; display: inline">
+                <p>Give us the deets!</p>
+                <br>
+
+                <textarea cols="50" rows="4">
+Tell us where you like to ski, what your ultimate ski is, and anything else.
+</textarea>
+
+                <fieldset>
+                    <label>Are You:</label> <input checked="checked" id=
+                    "sizeSmall" name="radSize" type="radio" value="small">
+                    <label for="Gender">Man</label> <input id="sizeMed" name=
+                    "radSize" type="radio" value="medium"> <label for=
+                    "Gender">Woman</label>
+                </fieldset>
+                <!-- A Simple Form    -->
+
+
+                <form action="#" id="sign-up-form" method="post" name=
+                "sign-up-form">
+                    <fieldset>
+                        <h2>OK, Now the finer details</h2>
+
+
+                        <ul>
+                            <li><label id="f-name-label">First
+                            Name</label><input id="f-name-label" name="first"
+                            required="" type="text&quot;">
+                            </li>
+
+
+                            <li><label id="-name-label">Last
+                            Name</label><input id="f-name-label" name="first"
+                            required="" type="text&quot;">
+                            </li>
+
+
+                            <li><label>Please enter a valid email</label>
+                            <input name="email" type="email"></li>
+
+
+                            <li>
+                                <label>Please enter your height</label>
+                                <input max="8.0" min="5.0" placeholder="5"
+                                type="height" value="5">
+
+                                <p>feet and inches</p>
+                            </li>
+
+
+                            <li>
+                                <label>Please enter your weight</label>
+                                <input max="300" min="80" placeholder="100"
+                                type="weight" value="100">
+
+                                <p>lbs</p>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </li>
+
+
+            
+        </ul>
+        <input type="submit" value="Tell Me Ski Oracle">
+
+        <p>We will email you the suggested brand and ski length for your height
+        and weight, at the address you provided. You take it from there.</p>
+    </div>
+</body>
+</html>
+            
+            	
+
+        </div><!-- closing maincContent div tag -->
+		
+		
+        <!--  This is the footer section, only footer stuff -->
+		<footer>
+			<p>&copy; copyright 2015</p>
+			
+		</footer>
+
+	</body>
+</html>
